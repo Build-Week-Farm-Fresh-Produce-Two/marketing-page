@@ -13,7 +13,7 @@
 }
 
 .cartlogo{
-height:5vh;
+height:4vh;
 
 }
 
@@ -23,133 +23,248 @@ height:5vh;
     margin-left:25%;
 
 }
-@media (max-width:500px) {
+    @media (max-width:500px) {
     .logo{
     width:24%;
     height: 10vh;
-    margin-left:40%;
+    margin-left:11%;
   
     }
 }
 
 /* headercover styling starts here */
-.top-header .cover{
-    width: 100%;
-    height: 55vh;
-    background-image: url("../img/Hero\ image.jpg");
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    margin-bottom: 6%;
+// .top-header .cover{
+//     width: 100%;
+//     height: 65vh;
+//     background-image: url("../img/Hero\ image.jpg");
+//     background-size: 100%; 
+//     background-repeat: no-repeat;
+//     margin-bottom: 6%;
      
-}
-@media (max-width:500px) {
-    .top-header .cover{
-    height:36vh;
+// }
+// @media (max-width:500px) {
+//     .top-header .cover{
+//     height:36vh;
     
 
-    }
-}
+//     }
+// }
 
 .title{
-    margin: -29% 0 0 27%;
-    width:55%;
-}
-@media (max-width:500px) {
-    .title{
-     margin:-55% 0 0 25%;
-     width:65%;
-    }
-}
-
-
-
-.title button{
-display:box;
-width: 25%;
-height:4.2vh;
-margin-left:33%;
-font-family: Maven Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 0.8rem;
-line-height: 24px;
-background: #F46032;
-border-radius: 0px 8px 8px 0px
-
-}
-@media (max-width:500px) {
-    .title button{
-        width:50%;
-    margin-left:86%; 
-    border-radius: 0px 8px 8px 8px; 
+    // margin: ;
+    // width:65%;
+    background-image: url("../img/Hero\ image.jpg");
+    background-size: cover;
+    height: 55vh;
    
-    }
-}
+   
 
-.title input{
-    position: absolute;
-    background: #F0F0F0;
-    /* border-radius: 8px 0px 0px 8px; */
-  }
-  @media (max-width:500px) {
-    .title input{
-    display:block; 
-    padding:0.6%;    
-    }
-}
-  
+        button{
+        display:box;
+        width: 20%;
+        height:4.2vh;
+        margin-left:45%;
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.8rem;
+        line-height: 1%;
+        background: #F46032;
+        border-radius: 0px 8px 8px 0px;
+        padding-left:3%;
+        
+        }
+        @media (max-width:500px) {
+            button{
+            width:50%;
+            padding-left:2%;
+            margin-left:42%; 
+            border-radius: 0px 8px 8px 8px; 
+           
+            }
+        }
 
-.title p{
-    line-height:1.5em;
-    font-weight: 500;
-    color:  rgba(8, 8, 8, 0.877);
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: normal;
-}
-.bold{
-  
-    font-weight:550;
+        input{
+            position: absolute;
+            background: #F0F0F0;
+            margin-left:20%;
+            /* border-radius: 8px 0px 0px 8px; */
+          }
+        @media (max-width:500px) {
+            input{
+            display:block; 
+            padding:0.6%; 
+            margin-left:6%;   
+            }
+        }
+        h1{
+            width:100%;
+            padding:8.5% 7% 2% 7%;
+            font-size: 2.6rem;
+        }
+        @media (max-width:500px) {
+            h1{
+            font-size:2.12rem;
+            text-align:center;
+            line-height:1.1em;
+            padding-top:15%;
+            }
+        }
+
+        p{
+            width:55%;
+            font-size: 1.099rem;
+            line-height:1.3em;
+            
+            
+            color:  rgba(8, 8, 8, 0.877);
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: normal;
+            color:white;
+            padding:0 13% 2.8% 17%;
+        }
+        @media (max-width:500px) {
+            p{
     
-}
+            font-size:0.9rem;
+            line-height:1.2em;
+            padding-left:4% 4.5% 1.5% 1.5%;
+            }
+        }
+          
 
-  
-/* .button{
-    box-sizing: border-box;
-	width: 15%;
-    padding: 2.0%;
-    margin: -17% 0 0 10%
-}  */
+}
+// @media (max-width:500px) {
+//     .title{
+//     // margin:-55% 0 0 25%;
     
+//     }
+// }
+
+
+
+
   /* top-section styling starts here */
 
 .top-section{
     display: flex;
     justify-content:space-evenly;
-    margin-top:10%
+    margin-top:9%;
+
+    img{
+        width:40%;
+        height: 38vh;
+        padding-right:4%;
+    
+    }
+    
+    @media (max-width:500px) {
+        img{
+            display:none;
+        }
+    }
+
+    .top-section-parent{
+        width:40%;
+    
+        .top-section-heading h1{
+         font-size: 0.9rem; 
+             
+        }
+        
+            @media (max-width:500px) {
+                .top-section-pseudo{
+                width: 100%;
+                height: 35vh;
+                background-image: url("../img/pic.png ");
+                background-size: 100%; 
+                background-repeat: no-repeat;
+                padding:3% 3% 4% 0;;
+                margin:0 auto;
+                }
+            }
+        
+        
+        .top-section-paragf p{
+         line-height: 1.3em;
+         padding-top:3%;
+         margin-top:3%;
+        }
+        @media (max-width:500px) {
+            .top-section-paragf p{
+            font-size: 0.85rem;
+                
+            }
+        }
+    }
+           
+        @media (max-width:500px) {
+            .top-section-parent{
+            width:86%
+            }
+        }
+    
  }
- .top-section div{
-     width: 50%;
-     margin: 1%;  
-     line-height:1.5em;
-       
-}
 
-.top-section img{
-    width:30%;
-    height: 30vh;
 
-}
+
 /* middle-section styling starts here */
+.main-middle-section{
+    background-image: url("../img/Dark accent background.png");
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    padding-top:2%;
+    text-align:center;
+    margin-top:6%;
+
+    h2{
+        color:white;
+        font-family: 'Roboto Slab', serif;
+    }
+    @media (max-width:500px) {
+        h2{
+        margin-top:2%;
+        
+        }
+    }
+
+}
+
 .middle-section{
     display: flex;
     justify-content:space-between;
     flex-wrap: nowrap;
-    margin:4%;
-    background-image: url("../img/Dark accent background.png");
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    padding-top:4%;
+    margin:1%;
+
+    div{
+        width:23%;
+        margin:1% 0.5% 1% 0.5%;
+        padding:2% 2% 2% 2%;
+        background-color: #D8E7ED;
+        line-height:1.5em;
+    }
+    @media (max-width:500px) {
+        div{
+        width:70%;
+        margin:2.5% auto;
+        padding: 6% 12% 12% 10%;
+        }
+    }
+    
+    @media (max-width:500px) {
+        div:nth-child(1){
+        margin:12% 4% 5% auto;
+        padding: 6% 10% 12% 12%;
+        }
+    }
+    @media (max-width:500px) {
+        div:nth-child(2){
+        margin:0 4% 2% auto;
+        padding: 6% 12% 10% 10%;
+        }
+    }
+    
 }
     @media (max-width:500px) {
     .middle-section{
@@ -158,49 +273,10 @@ border-radius: 0px 8px 8px 0px
     }
 }
 
-middle-section h2{
-color:rgb(252, 250, 250);
 
-}
-@media (max-width:500px) {
-    .middle-section h2{
-   color:white;
-   margin-left:25%;
-   padding:1%;
-  
-    }
-}
-
-
-.middle-section div{
-    width:23%;
-    margin:1%;
-    padding:3%;
-    background-color: #D8E7ED;
-    line-height:1.5em;
-}
-@media (max-width:500px) {
-    .middle-section div{
-    width:70%;
-    margin:2.5% auto;
-    padding: 6% 12% 12% 10%;
-    }
-}
-
-@media (max-width:500px) {
-    .middle-section div:nth-child(1){
-    margin:12% 4% 5% auto;
-    padding: 6% 10% 12% 12%;
-    }
-}
-@media (max-width:500px) {
-    .middle-section div:nth-child(2){
-    margin:0 4% 2% auto;
-    padding: 6% 12% 10% 10%;
-    }
-}
 
 /* ------feedback-box styling starts here */
+
 .feedback-box{
     width: 80%;
     height: 45Vh;
@@ -210,108 +286,128 @@ color:rgb(252, 250, 250);
     background: #F1F3F6;
     box-shadow: 30px 30px 80px rgba(55, 84, 170, 0.1), -30px -30px 80px #FFFFFF, inset 4px 4px 20px rgba(255, 255, 255, 0.5);
     border-radius: 20px;
+
+        .image1{
+            width:15%;
+            margin:15% 0 30% 35%;
+        }
+        
+        @media (max-width:500px) {
+            .image1{
+            margin:15% 0 30% 8%;
+            width:10%
+            }
+        }
+        
+        
+        .image2{
+            width: 20%;
+            margin: 0 0 10% 20%;
+        }
+        @media (max-width:500px) {
+            .image2{
+            margin:15% 0 30% 0;
+            width:20%;
+            }
+        }
+
+    .text-box{
+        width: 75%;
+        margin: 10% 30% 0 0;
+        line-height:1.3em;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+    }
+    @media (max-width:500px) {
+        .text-box{
+        width:350%;
+        margin: 0 0 0 -20%;
+        font-size:0.8rem;
+        
+        }
+    }
+
 }  
 @media (max-width:500px) {
     .feedback-box{
-    height:25vh;
+    height:30vh;
+    margin:2% auto;
     }
 } 
 
-.feedback-box .image1{
-    width:15%;
-    margin:15% 0 30% 35%;
-}
 
-@media (max-width:500px) {
-    .feedback-box .image1{
-    margin:15% 0 30% 8%;
-    width:10%
-    }
-}
 
-// .picture-box{
-//     display:block;
-// }
-
-.feedback-box .image2{
-    width: 20%;
-    margin: 0 0 10% 20%;
-
-}
-@media (max-width:500px) {
-    .feedback-box .image2{
-    margin:15% 0 30% 0;
-    width:20%;
-    }
-}
-
-.feedback-box .text-box{
-    width: 75%;
-    margin: 10% 30% 0 0;
-    line-height:1.3em;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: normal;
-}
-@media (max-width:500px) {
-    .feedback-box .text-box{
-    width:350%;
-    margin: 0 0 0 -20%;
-    font-size:0.8rem;
-    
-    }
-}
 
 /* --bottom-box styling starts here */
-.bottom-box-cover{
-    width: 100%;
-    height: 55vh;
-    background-image: url("../img/potatopic.png");
-    background-size:cover;
-    background-position: center;
-    /* background-repeat: no-repeat; */
-    margin:auto;    
-}
-@media (max-width:500px) {
-    .bottom-box-cover{
-    height:50vh; 
-    margin-bottom:5%;
+// --bottom-box-cover styling goes here
 
-    }
-}
+// .bottom-box-cover{
+//     width: 100%;
+//     height: 65vh;
+//     background-image: url("../img/potatopic.png");
+//     background-size:cover;
+//     background-position: center;
+//     /* background-repeat: no-repeat; */
+//     margin:-1% auto; 
+       
+// }
+// @media (max-width:500px) {
+//     .bottom-box-cover{
+//     height:50vh; 
+//     margin-bottom:5%;
+
+//     }
+// }
+
+// bottom-box-text styling goes here--
 
 .bottom-box-text{
-    margin: -23% 0 0 28%;
-    width:50%;
+    background-image: url("../img/potatopic.png");
+    background-size: cover;
+    height:50vh;
 }
 
 @media (max-width:500px) {
     .bottom-box-text{
-    margin:-52% 0 0 9%;
-    width:80%;
+    margin:5% 0 2% 0;
+    padding-top:0.5%;
     }
 }
 
 .bottom-box-text h2{
     color:white;
     margin-left: 12%;
+    padding-top: 6%;
+}
+@media (max-width:500px) {
+    .bottom-box-text h2{
+    font-size:1.7rem;
+    padding-top:14%;
+    line-height:1.4 em;
+    color:rgb(252, 252, 252);
+    
+    }
 }
 
 .bottom-box-text p{
     color:rgb(252, 252, 252);
-    line-height:1.4em;
+    line-height:1.35em;
+    padding:3% 16.5% 3% 16.5%;
 }
 @media (max-width:500px) {
     .bottom-box-text p{
     line-height:1em;
-    color:rgb(250, 252, 252);
-    font-weight:500;
+    color:rgb(252, 252, 252);
+    text-align:start;
+    
     margin-bottom:3%;
     }
 }
 .bottom-box-text input{
     position: absolute;
     background: #F0F0F0;
+    margin-left:20%;
     /* border-radius: 8px 0px 0px 8px; */
   }
   @media (max-width:500px) {
@@ -322,37 +418,40 @@ color:rgb(252, 250, 250);
 }
 .bottom-box-text button{
     display:box;
-    width: 25%;
+    width: 20%;
     height:4.2vh;
-    margin-left:33%;
+    margin-left:45%;
     font-family: Maven Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 0.8rem;
-    line-height: 24px;
+    // line-height: 24px;
     background: #F46032;
-    border-radius: 0px 8px 8px 0px
+    border-radius: 0px 8px 8px 0px;
+    padding-left:3%;
     
     }
     @media (max-width:500px) {
-        .bottom-box-text button{
-        margin-left:53%; 
+        .bottom-box-text button{   
+        margin-left:60%; 
         border-radius: 0px 8px 8px 8px; 
        
         }
     }
 
+    // ---list-box styling starts here--
+
 .list-box{
     display:flex;
     justify-content: space-between;
-    margin: 10%; 
-    line-height:1.5em;   
+    margin: 6% 10% 5% 10%; 
+    line-height:1.3em;   
 }
 
 @media (max-width:500px) {
     .list-box{
     line-height:1.3em;
     font-size:0.8rem;
-    margin:6%   
+    margin:1% 10% 5% 8%;   
     }
 }
