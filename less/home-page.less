@@ -23,33 +23,41 @@ height:5vh;
     margin-left:25%;
 
 }
+@media (max-width:500px) {
+    .logo{
+    width:24%;
+    height: 10vh;
+    margin-left:40%;
+  
+    }
+}
+
 /* headercover styling starts here */
 .top-header .cover{
     width: 100%;
     height: 55vh;
-    background-image: url("../img/vegetables.jpeg");
-    background-size: cover; 
+    background-image: url("../img/Hero\ image.jpg");
+    background-size: 100%; 
+    background-repeat: no-repeat;
     margin-bottom: 6%;
      
 }
 @media (max-width:500px) {
     .top-header .cover{
-    height:47vh;
-    background-position: center;
+    height:36vh;
     
-       
+
     }
 }
 
 .title{
-    margin: -27% 0 0 27%;
-    width:50%;
+    margin: -29% 0 0 27%;
+    width:55%;
 }
 @media (max-width:500px) {
     .title{
-    // height:28vh;
-     margin:-60% 0 0 25%;
-       
+     margin:-55% 0 0 25%;
+     width:65%;
     }
 }
 
@@ -69,23 +77,24 @@ background: #F46032;
 border-radius: 0px 8px 8px 0px
 
 }
+@media (max-width:500px) {
+    .title button{
+        width:50%;
+    margin-left:86%; 
+    border-radius: 0px 8px 8px 8px; 
+   
+    }
+}
 
 .title input{
     position: absolute;
-    /* width: 235px;
-    height: 48px;
-    right: 196px;
-    top: 0px; */
-    
     background: #F0F0F0;
     /* border-radius: 8px 0px 0px 8px; */
   }
   @media (max-width:500px) {
     .title input{
-    display:block;
-    // height:28vh;
-    //  margin:-60% 0 0 25%;
-       
+    display:block; 
+    padding:0.6%;    
     }
 }
   
@@ -122,7 +131,8 @@ border-radius: 0px 8px 8px 0px
  .top-section div{
      width: 50%;
      margin: 1%;  
-     line-height:1.5em;  
+     line-height:1.5em;
+       
 }
 
 .top-section img{
@@ -135,7 +145,11 @@ border-radius: 0px 8px 8px 0px
     display: flex;
     justify-content:space-between;
     flex-wrap: nowrap;
-    margin:4%
+    margin:4%;
+    background-image: url("../img/Dark accent background.png");
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    padding-top:4%;
 }
     @media (max-width:500px) {
     .middle-section{
@@ -143,6 +157,20 @@ border-radius: 0px 8px 8px 0px
     background-color:#1F2A4C ;
     }
 }
+
+middle-section h2{
+color:rgb(252, 250, 250);
+
+}
+@media (max-width:500px) {
+    .middle-section h2{
+   color:white;
+   margin-left:25%;
+   padding:1%;
+  
+    }
+}
+
 
 .middle-section div{
     width:23%;
@@ -155,20 +183,20 @@ border-radius: 0px 8px 8px 0px
     .middle-section div{
     width:70%;
     margin:2.5% auto;
-    padding: 12% 12% 3% 10%;
+    padding: 6% 12% 12% 10%;
     }
 }
 
 @media (max-width:500px) {
     .middle-section div:nth-child(1){
     margin:12% 4% 5% auto;
-    padding: 0 10% 12% 12%;
+    padding: 6% 10% 12% 12%;
     }
 }
 @media (max-width:500px) {
     .middle-section div:nth-child(2){
     margin:0 4% 2% auto;
-    padding: 0 12% 10% 10%;
+    padding: 6% 12% 10% 10%;
     }
 }
 
@@ -182,7 +210,12 @@ border-radius: 0px 8px 8px 0px
     background: #F1F3F6;
     box-shadow: 30px 30px 80px rgba(55, 84, 170, 0.1), -30px -30px 80px #FFFFFF, inset 4px 4px 20px rgba(255, 255, 255, 0.5);
     border-radius: 20px;
-}   
+}  
+@media (max-width:500px) {
+    .feedback-box{
+    height:25vh;
+    }
+} 
 
 .feedback-box .image1{
     width:15%;
@@ -192,6 +225,7 @@ border-radius: 0px 8px 8px 0px
 @media (max-width:500px) {
     .feedback-box .image1{
     margin:15% 0 30% 8%;
+    width:10%
     }
 }
 
@@ -207,6 +241,7 @@ border-radius: 0px 8px 8px 0px
 @media (max-width:500px) {
     .feedback-box .image2{
     margin:15% 0 30% 0;
+    width:20%;
     }
 }
 
@@ -217,20 +252,34 @@ border-radius: 0px 8px 8px 0px
     font-family: Fira Sans;
     font-style: normal;
     font-weight: normal;
+}
+@media (max-width:500px) {
+    .feedback-box .text-box{
+    width:350%;
+    margin: 0 0 0 -20%;
+    font-size:0.8rem;
     
+    }
 }
 
 /* --bottom-box styling starts here */
 .bottom-box-cover{
     width: 100%;
     height: 55vh;
-    background-image: url("../img/blackberries.jpg");
+    background-image: url("../img/potatopic.png");
     background-size:cover;
     background-position: center;
     /* background-repeat: no-repeat; */
-    margin:auto;
-      
+    margin:auto;    
 }
+@media (max-width:500px) {
+    .bottom-box-cover{
+    height:50vh; 
+    margin-bottom:5%;
+
+    }
+}
+
 .bottom-box-text{
     margin: -23% 0 0 28%;
     width:50%;
@@ -238,7 +287,7 @@ border-radius: 0px 8px 8px 0px
 
 @media (max-width:500px) {
     .bottom-box-text{
-    margin:-56% 0 0 9%;
+    margin:-52% 0 0 9%;
     width:80%;
     }
 }
@@ -254,15 +303,56 @@ border-radius: 0px 8px 8px 0px
 }
 @media (max-width:500px) {
     .bottom-box-text p{
-    line-height:1.1em;
+    line-height:1em;
     color:rgb(250, 252, 252);
     font-weight:500;
+    margin-bottom:3%;
     }
 }
+.bottom-box-text input{
+    position: absolute;
+    background: #F0F0F0;
+    /* border-radius: 8px 0px 0px 8px; */
+  }
+  @media (max-width:500px) {
+    .bottom-box-text input{
+    display:block;
+    padding:0.6%    
+    }
+}
+.bottom-box-text button{
+    display:box;
+    width: 25%;
+    height:4.2vh;
+    margin-left:33%;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 24px;
+    background: #F46032;
+    border-radius: 0px 8px 8px 0px
+    
+    }
+    @media (max-width:500px) {
+        .bottom-box-text button{
+        margin-left:53%; 
+        border-radius: 0px 8px 8px 8px; 
+       
+        }
+    }
 
 .list-box{
     display:flex;
     justify-content: space-between;
     margin: 10%; 
     line-height:1.5em;   
+}
+
+@media (max-width:500px) {
+    .list-box{
+    line-height:1.3em;
+    font-size:0.8rem;
+    margin:6%   
+    }
 }
