@@ -2,8 +2,7 @@
 
 .container{
 	max-width: 80%;
-	/* max-height:auto; */
-    margin: 3% auto;
+	margin: 3% auto;
     border: 2px solid rgb(0, 174, 255);  
 }
 .basketlogo{
@@ -18,46 +17,27 @@ height:4vh;
 }
 
 .logo{
-    width:50%;
-    height: 10vh;
+    width:40;
+    height: 7vh;
     margin-left:25%;
 
 }
-    @media (max-width:500px) {
+    @media @phone {
     .logo{
-    width:24%;
-    height: 10vh;
+    width:14%;
+    height: 6vh;
     margin-left:11%;
-  
     }
 }
 
-/* headercover styling starts here */
-// .top-header .cover{
-//     width: 100%;
-//     height: 65vh;
-//     background-image: url("../img/Hero\ image.jpg");
-//     background-size: 100%; 
-//     background-repeat: no-repeat;
-//     margin-bottom: 6%;
-     
-// }
-// @media (max-width:500px) {
-//     .top-header .cover{
-//     height:36vh;
-    
-
-//     }
-// }
-
 .title{
-    // margin: ;
-    // width:65%;
     background-image: url("../img/Hero\ image.jpg");
     background-size: cover;
     height: 55vh;
-   
-   
+    .input-div{
+        display:flex;
+        justify-content:flex-start;
+    }
 
         button{
         display:box;
@@ -74,27 +54,30 @@ height:4vh;
         padding-left:3%;
         
         }
-        @media (max-width:500px) {
+        @media @phone {
             button{
-            width:50%;
-            padding-left:2%;
-            margin-left:42%; 
+            width:35%;
+            padding-left:4%;
+            margin-left:50%; 
             border-radius: 0px 8px 8px 8px; 
            
             }
         }
 
         input{
+            width:18%;
             position: absolute;
             background: #F0F0F0;
             margin-left:20%;
             /* border-radius: 8px 0px 0px 8px; */
           }
-        @media (max-width:500px) {
+        @media @phone {
             input{
             display:block; 
+            width: 28%;
             padding:0.6%; 
-            margin-left:6%;   
+            margin-left:16%;   
+            // width:35%;
             }
         }
         h1{
@@ -102,7 +85,7 @@ height:4vh;
             padding:8.5% 7% 2% 7%;
             font-size: 2.6rem;
         }
-        @media (max-width:500px) {
+        @media @phone {
             h1{
             font-size:2.12rem;
             text-align:center;
@@ -124,7 +107,7 @@ height:4vh;
             color:white;
             padding:0 13% 2.8% 17%;
         }
-        @media (max-width:500px) {
+        @media @phone {
             p{
     
             font-size:0.9rem;
@@ -135,15 +118,6 @@ height:4vh;
           
 
 }
-// @media (max-width:500px) {
-//     .title{
-//     // margin:-55% 0 0 25%;
-    
-//     }
-// }
-
-
-
 
   /* top-section styling starts here */
 
@@ -159,7 +133,7 @@ height:4vh;
     
     }
     
-    @media (max-width:500px) {
+    @media @phone {
         img{
             display:none;
         }
@@ -173,7 +147,7 @@ height:4vh;
              
         }
         
-            @media (max-width:500px) {
+            @media @phone {
                 .top-section-pseudo{
                 width: 100%;
                 height: 35vh;
@@ -191,7 +165,7 @@ height:4vh;
          padding-top:3%;
          margin-top:3%;
         }
-        @media (max-width:500px) {
+        @media @phone {
             .top-section-paragf p{
             font-size: 0.85rem;
                 
@@ -199,15 +173,13 @@ height:4vh;
         }
     }
            
-        @media (max-width:500px) {
+        @media @phone {
             .top-section-parent{
             width:86%
             }
         }
     
  }
-
-
 
 /* middle-section styling starts here */
 .main-middle-section{
@@ -222,7 +194,7 @@ height:4vh;
         color:white;
         font-family: 'Roboto Slab', serif;
     }
-    @media (max-width:500px) {
+    @media @phone {
         h2{
         margin-top:2%;
         
@@ -242,9 +214,9 @@ height:4vh;
         margin:1% 0.5% 1% 0.5%;
         padding:2% 2% 2% 2%;
         background-color: #D8E7ED;
-        line-height:1.5em;
+        line-height:1.2em;
     }
-    @media (max-width:500px) {
+    @media @phone {
         div{
         width:70%;
         margin:2.5% auto;
@@ -252,21 +224,24 @@ height:4vh;
         }
     }
     
-    @media (max-width:500px) {
+    @media @phone {
         div:nth-child(1){
         margin:12% 4% 5% auto;
         padding: 6% 10% 12% 12%;
         }
     }
-    @media (max-width:500px) {
+    @media @phone {
         div:nth-child(2){
         margin:0 4% 2% auto;
         padding: 6% 12% 10% 10%;
         }
     }
-    
+    p{
+        font-size:0.9rem;
+        padding-top:10%;
+    }
 }
-    @media (max-width:500px) {
+    @media @phone {
     .middle-section{
     flex-direction:column;
     background-color:#1F2A4C ;
@@ -292,7 +267,7 @@ height:4vh;
             margin:15% 0 30% 35%;
         }
         
-        @media (max-width:500px) {
+        @media @phone {
             .image1{
             margin:15% 0 30% 8%;
             width:10%
@@ -304,7 +279,7 @@ height:4vh;
             width: 20%;
             margin: 0 0 10% 20%;
         }
-        @media (max-width:500px) {
+        @media @phone {
             .image2{
             margin:15% 0 30% 0;
             width:20%;
@@ -319,7 +294,7 @@ height:4vh;
         font-style: normal;
         font-weight: normal;
     }
-    @media (max-width:500px) {
+    @media @phone {
         .text-box{
         width:350%;
         margin: 0 0 0 -20%;
@@ -329,7 +304,7 @@ height:4vh;
     }
 
 }  
-@media (max-width:500px) {
+@media @phone {
     .feedback-box{
     height:30vh;
     margin:2% auto;
@@ -340,25 +315,6 @@ height:4vh;
 
 
 /* --bottom-box styling starts here */
-// --bottom-box-cover styling goes here
-
-// .bottom-box-cover{
-//     width: 100%;
-//     height: 65vh;
-//     background-image: url("../img/potatopic.png");
-//     background-size:cover;
-//     background-position: center;
-//     /* background-repeat: no-repeat; */
-//     margin:-1% auto; 
-       
-// }
-// @media (max-width:500px) {
-//     .bottom-box-cover{
-//     height:50vh; 
-//     margin-bottom:5%;
-
-//     }
-// }
 
 // bottom-box-text styling goes here--
 
@@ -366,9 +322,10 @@ height:4vh;
     background-image: url("../img/potatopic.png");
     background-size: cover;
     height:50vh;
+-
 }
 
-@media (max-width:500px) {
+@media @phone {
     .bottom-box-text{
     margin:5% 0 2% 0;
     padding-top:0.5%;
@@ -380,7 +337,7 @@ height:4vh;
     margin-left: 12%;
     padding-top: 6%;
 }
-@media (max-width:500px) {
+@media @phone {
     .bottom-box-text h2{
     font-size:1.7rem;
     padding-top:14%;
@@ -395,7 +352,7 @@ height:4vh;
     line-height:1.35em;
     padding:3% 16.5% 3% 16.5%;
 }
-@media (max-width:500px) {
+@media @phone {
     .bottom-box-text p{
     line-height:1em;
     color:rgb(252, 252, 252);
@@ -404,40 +361,51 @@ height:4vh;
     margin-bottom:3%;
     }
 }
-.bottom-box-text input{
-    position: absolute;
-    background: #F0F0F0;
-    margin-left:20%;
-    /* border-radius: 8px 0px 0px 8px; */
-  }
-  @media (max-width:500px) {
-    .bottom-box-text input{
-    display:block;
-    padding:0.6%    
-    }
-}
-.bottom-box-text button{
-    display:box;
-    width: 20%;
-    height:4.2vh;
-    margin-left:45%;
-    font-family: Maven Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.8rem;
-    // line-height: 24px;
-    background: #F46032;
-    border-radius: 0px 8px 8px 0px;
-    padding-left:3%;
-    
-    }
-    @media (max-width:500px) {
-        .bottom-box-text button{   
-        margin-left:60%; 
-        border-radius: 0px 8px 8px 8px; 
-       
+
+.bottom-box-text .input-div{
+        display:flex;
+        justify-content:flex-start;
+
+        input{
+            position: absolute;
+            width: 18%;
+            background: #F0F0F0;
+            margin-left:20%;
+          }
+          @media @phone {
+            input{
+            display:block;
+            width:28%;
+            padding:0.6%;   
+            margin-left:16%; 
+            }
         }
-    }
+        button{
+            display:box;
+            width: 20%;
+            height:4.2vh;
+            margin-left:45%;
+            font-family: Maven Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.8rem;
+            background: #F46032;
+            border-radius: 0px 8px 8px 0px;
+            padding-left:3%;
+            
+            }
+            @media @phone {
+                button{   
+                width:35%;
+                padding-left:4%;
+                margin-left:50%; 
+                border-radius: 0px 8px 8px 8px; 
+               
+                }
+            }
+        
+    
+}
 
     // ---list-box styling starts here--
 
@@ -448,7 +416,7 @@ height:4vh;
     line-height:1.3em;   
 }
 
-@media (max-width:500px) {
+@media @phone {
     .list-box{
     line-height:1.3em;
     font-size:0.8rem;

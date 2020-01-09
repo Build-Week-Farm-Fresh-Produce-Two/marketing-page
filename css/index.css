@@ -178,51 +178,52 @@ nav a {
   color: white;
   text-decoration: none;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(2) {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(3) {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(4) {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(5) {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(6) {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(7) {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav a:nth-child(8) {
     display: none;
   }
 }
 nav .buttn {
   display: box;
-  width: 200%;
+  width: 170%;
   height: 3.5vh;
   margin: 0 1% 0 -1%;
   padding-right: 1%;
   border-radius: 5px;
   background-color: #7FAECC;
+  font-size: 0.56rem;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   nav .buttn {
     width: 50%;
   }
@@ -235,11 +236,12 @@ nav a:nth-child(7) {
   padding-left: 5%;
 }
 input {
+  width: 160%;
   margin-right: 2%;
   padding: 0.2%;
   border-radius: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   input {
     display: none;
   }
@@ -260,7 +262,7 @@ input {
   width: 4.5%;
   color: rgba(43, 41, 45, 0.6);
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   #footer-nav .nav-container a {
     display: inline;
   }
@@ -272,7 +274,7 @@ input {
   width: 6%;
   margin: 5%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   #footer-nav .image-container img {
     width: 18%;
     margin: 0;
@@ -281,7 +283,6 @@ input {
 }
 .container {
   max-width: 80%;
-  /* max-height:auto; */
   margin: 3% auto;
   border: 2px solid #00aeff;
 }
@@ -293,22 +294,25 @@ input {
   height: 4vh;
 }
 .logo {
-  width: 50%;
-  height: 10vh;
+  width: 40;
+  height: 7vh;
   margin-left: 25%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .logo {
-    width: 24%;
-    height: 10vh;
+    width: 14%;
+    height: 6vh;
     margin-left: 11%;
   }
 }
-/* headercover styling starts here */
 .title {
   background-image: url("../img/Hero\ image.jpg");
   background-size: cover;
   height: 55vh;
+}
+.title .input-div {
+  display: flex;
+  justify-content: flex-start;
 }
 .title button {
   display: box;
@@ -324,25 +328,27 @@ input {
   border-radius: 0px 8px 8px 0px;
   padding-left: 3%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .title button {
-    width: 50%;
-    padding-left: 2%;
-    margin-left: 42%;
+    width: 35%;
+    padding-left: 4%;
+    margin-left: 50%;
     border-radius: 0px 8px 8px 8px;
   }
 }
 .title input {
+  width: 18%;
   position: absolute;
   background: #F0F0F0;
   margin-left: 20%;
   /* border-radius: 8px 0px 0px 8px; */
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .title input {
     display: block;
+    width: 28%;
     padding: 0.6%;
-    margin-left: 6%;
+    margin-left: 16%;
   }
 }
 .title h1 {
@@ -350,7 +356,7 @@ input {
   padding: 8.5% 7% 2% 7%;
   font-size: 2.6rem;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .title h1 {
     font-size: 2.12rem;
     text-align: center;
@@ -369,7 +375,7 @@ input {
   color: white;
   padding: 0 13% 2.8% 17%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .title p {
     font-size: 0.9rem;
     line-height: 1.2em;
@@ -387,7 +393,7 @@ input {
   height: 38vh;
   padding-right: 4%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .top-section img {
     display: none;
   }
@@ -398,7 +404,7 @@ input {
 .top-section .top-section-parent .top-section-heading h1 {
   font-size: 0.9rem;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .top-section .top-section-parent .top-section-pseudo {
     width: 100%;
     height: 35vh;
@@ -414,12 +420,12 @@ input {
   padding-top: 3%;
   margin-top: 3%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .top-section .top-section-parent .top-section-paragf p {
     font-size: 0.85rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .top-section .top-section-parent {
     width: 86%;
   }
@@ -437,7 +443,7 @@ input {
   color: white;
   font-family: 'Roboto Slab', serif;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .main-middle-section h2 {
     margin-top: 2%;
   }
@@ -453,28 +459,32 @@ input {
   margin: 1% 0.5% 1% 0.5%;
   padding: 2% 2% 2% 2%;
   background-color: #D8E7ED;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .middle-section div {
     width: 70%;
     margin: 2.5% auto;
     padding: 6% 12% 12% 10%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .middle-section div:nth-child(1) {
     margin: 12% 4% 5% auto;
     padding: 6% 10% 12% 12%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .middle-section div:nth-child(2) {
     margin: 0 4% 2% auto;
     padding: 6% 12% 10% 10%;
   }
 }
-@media (max-width: 500px) {
+.middle-section p {
+  font-size: 0.9rem;
+  padding-top: 10%;
+}
+@media (max-width:500px) {
   .middle-section {
     flex-direction: column;
     background-color: #1F2A4C;
@@ -495,7 +505,7 @@ input {
   width: 15%;
   margin: 15% 0 30% 35%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .feedback-box .image1 {
     margin: 15% 0 30% 8%;
     width: 10%;
@@ -505,7 +515,7 @@ input {
   width: 20%;
   margin: 0 0 10% 20%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .feedback-box .image2 {
     margin: 15% 0 30% 0;
     width: 20%;
@@ -519,14 +529,14 @@ input {
   font-style: normal;
   font-weight: normal;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .feedback-box .text-box {
     width: 350%;
     margin: 0 0 0 -20%;
     font-size: 0.8rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .feedback-box {
     height: 30vh;
     margin: 2% auto;
@@ -537,8 +547,10 @@ input {
   background-image: url("../img/potatopic.png");
   background-size: cover;
   height: 50vh;
+  FillColorStyle: Dark Shade 1;
+  Fill: Solid #212429;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .bottom-box-text {
     margin: 5% 0 2% 0;
     padding-top: 0.5%;
@@ -549,7 +561,7 @@ input {
   margin-left: 12%;
   padding-top: 6%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .bottom-box-text h2 {
     font-size: 1.7rem;
     padding-top: 14%;
@@ -562,7 +574,7 @@ input {
   line-height: 1.35em;
   padding: 3% 16.5% 3% 16.5%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .bottom-box-text p {
     line-height: 1em;
     color: #fcfcfc;
@@ -570,19 +582,25 @@ input {
     margin-bottom: 3%;
   }
 }
-.bottom-box-text input {
+.bottom-box-text .input-div {
+  display: flex;
+  justify-content: flex-start;
+}
+.bottom-box-text .input-div input {
   position: absolute;
+  width: 18%;
   background: #F0F0F0;
   margin-left: 20%;
-  /* border-radius: 8px 0px 0px 8px; */
 }
-@media (max-width: 500px) {
-  .bottom-box-text input {
+@media (max-width:500px) {
+  .bottom-box-text .input-div input {
     display: block;
+    width: 28%;
     padding: 0.6%;
+    margin-left: 16%;
   }
 }
-.bottom-box-text button {
+.bottom-box-text .input-div button {
   display: box;
   width: 20%;
   height: 4.2vh;
@@ -595,9 +613,11 @@ input {
   border-radius: 0px 8px 8px 0px;
   padding-left: 3%;
 }
-@media (max-width: 500px) {
-  .bottom-box-text button {
-    margin-left: 60%;
+@media (max-width:500px) {
+  .bottom-box-text .input-div button {
+    width: 35%;
+    padding-left: 4%;
+    margin-left: 50%;
     border-radius: 0px 8px 8px 8px;
   }
 }
@@ -607,7 +627,7 @@ input {
   margin: 6% 10% 5% 10%;
   line-height: 1.3em;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .list-box {
     line-height: 1.3em;
     font-size: 0.8rem;
