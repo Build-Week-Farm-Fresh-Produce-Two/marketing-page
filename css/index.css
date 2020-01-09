@@ -145,7 +145,7 @@ h2 {
 }
 @media (max-width: 500px) {
   h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 h3 {
@@ -401,9 +401,6 @@ input {
 .top-section .top-section-parent {
   width: 40%;
 }
-.top-section .top-section-parent .top-section-heading h1 {
-  font-size: 0.9rem;
-}
 @media (max-width:500px) {
   .top-section .top-section-parent .top-section-pseudo {
     width: 100%;
@@ -411,13 +408,13 @@ input {
     background-image: url("../img/pic.png ");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 3% 3% 4% 0;
+    padding: 1% 3% 4% 0;
     margin: 0 auto;
   }
 }
 .top-section .top-section-parent .top-section-paragf p {
   line-height: 1.3em;
-  padding-top: 3%;
+  padding-top: 4%;
   margin-top: 3%;
 }
 @media (max-width:500px) {
@@ -460,6 +457,7 @@ input {
   padding: 2% 2% 2% 2%;
   background-color: #D8E7ED;
   line-height: 1.2em;
+  border-radius: 5px;
 }
 @media (max-width:500px) {
   .middle-section div {
@@ -547,8 +545,6 @@ input {
   background-image: url("../img/potatopic.png");
   background-size: cover;
   height: 50vh;
-  FillColorStyle: Dark Shade 1;
-  Fill: Solid #212429;
 }
 @media (max-width:500px) {
   .bottom-box-text {
@@ -576,9 +572,10 @@ input {
 }
 @media (max-width:500px) {
   .bottom-box-text p {
-    line-height: 1em;
+    line-height: 1.2em;
     color: #fcfcfc;
     text-align: start;
+    font-size: 0.8rem;
     margin-bottom: 3%;
   }
 }
