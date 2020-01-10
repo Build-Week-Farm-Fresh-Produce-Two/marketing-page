@@ -35,24 +35,11 @@ height:4vh;
     background-size: cover;
     height: 55vh;
     .input-div{
-        display:flex;
-        justify-content:flex-start;
+        .custom-layout(flex-start);
     }
 
         button{
-        display:box;
-        width: 20%;
-        height:4.2vh;
-        margin-left:45%;
-        font-family: Maven Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 0.8rem;
-        line-height: 1%;
-        background: @title-bn-bg;
-        border-radius: 0px 8px 8px 0px;
-        padding-left:3%;
-        
+        .button-style()        
         }
         @media @phone {
             button{
@@ -66,10 +53,8 @@ height:4vh;
 
         input{
             width:18%;
-            position: absolute;
-            background: #F0F0F0;
             margin-left:20%;
-            /* border-radius: 8px 0px 0px 8px; */
+            .input-style()            
           }
         @media @phone {
             input{
@@ -199,8 +184,7 @@ height:4vh;
 }
 
 .middle-section{
-    display: flex;
-    justify-content:space-between;
+    .custom-layout(space-between);
     flex-wrap: nowrap;
     margin:1%;
 
@@ -240,7 +224,7 @@ height:4vh;
     @media @phone {
     .middle-section{
     flex-direction:column;
-    background-color:#1F2A4C ;
+    background-color:@navy-blue ;
     }
 }
 
@@ -364,10 +348,10 @@ height:4vh;
         justify-content:flex-start;
 
         input{
-            position: absolute;
             width: 18%;
-            background: @title-input-bg;
             margin-left:20%;
+            .input-style()
+          
           }
           @media @phone {
             input{
@@ -378,18 +362,8 @@ height:4vh;
             }
         }
         button{
-            display:box;
-            width: 20%;
-            height:4.2vh;
-            margin-left:45%;
-            font-family: Maven Pro;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 0.8rem;
-            background: @title-bn-bg;
-            border-radius: 0px 8px 8px 0px;
-            padding-left:3%;
-            
+            .button-style();            
+        
             }
             @media @phone {
                 button{   

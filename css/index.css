@@ -1,3 +1,24 @@
+.input-style {
+  position: absolute;
+  height: 3.99vh;
+  border-radius: 8px 0px 0px 8px;
+  border-width: 0;
+  background: #F0F0F0;
+}
+.button-style {
+  display: box;
+  width: 20%;
+  height: 3.99vh;
+  margin-left: 45%;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background: #F46032;
+  border-radius: 0px 8px 8px 0px;
+  padding-left: 3%;
+  border-width: 0;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -317,16 +338,16 @@ input {
 .title button {
   display: box;
   width: 20%;
-  height: 4.2vh;
+  height: 3.99vh;
   margin-left: 45%;
   font-family: Maven Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 0.8rem;
-  line-height: 1%;
   background: #F46032;
   border-radius: 0px 8px 8px 0px;
   padding-left: 3%;
+  border-width: 0;
 }
 @media (max-width:500px) {
   .title button {
@@ -338,10 +359,12 @@ input {
 }
 .title input {
   width: 18%;
-  position: absolute;
-  background: #F0F0F0;
   margin-left: 20%;
-  /* border-radius: 8px 0px 0px 8px; */
+  position: absolute;
+  height: 3.99vh;
+  border-radius: 8px 0px 0px 8px;
+  border-width: 0;
+  background: #F0F0F0;
 }
 @media (max-width:500px) {
   .title input {
@@ -584,10 +607,13 @@ input {
   justify-content: flex-start;
 }
 .bottom-box-text .input-div input {
-  position: absolute;
   width: 18%;
-  background: #F0F0F0;
   margin-left: 20%;
+  position: absolute;
+  height: 3.99vh;
+  border-radius: 8px 0px 0px 8px;
+  border-width: 0;
+  background: #F0F0F0;
 }
 @media (max-width:500px) {
   .bottom-box-text .input-div input {
@@ -600,7 +626,7 @@ input {
 .bottom-box-text .input-div button {
   display: box;
   width: 20%;
-  height: 4.2vh;
+  height: 3.99vh;
   margin-left: 45%;
   font-family: Maven Pro;
   font-style: normal;
@@ -609,6 +635,7 @@ input {
   background: #F46032;
   border-radius: 0px 8px 8px 0px;
   padding-left: 3%;
+  border-width: 0;
 }
 @media (max-width:500px) {
   .bottom-box-text .input-div button {
