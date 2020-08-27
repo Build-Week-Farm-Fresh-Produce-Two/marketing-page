@@ -11,11 +11,11 @@ Farmers throw away tons of produce and lose their money since they are not able 
 Farmfresh app is a step to help those farmers, by creating a web platform. Farmers will be able to sell their excess inventory and connect to wide range of customers. 
 
 
-###Tech-stack \
+### Tech-stack 
 
 Semantic html || LESS || flexbox
 
-###Responsive web design
+### Responsive web design
 
 Responsive web design with media queries: <br />
  @desktop (1024px) <br />
