@@ -22,6 +22,6 @@ Responsive web design with media queries: <br />
  @tablet (800px) <br />
  @mobile (500px)<br />
 
-###Link to figma mockup 
+### Link to figma mockup 
 
 https://www.figma.com/file/KOMEzLTE2K3YP7JpsFt3s9/Build-Week-Project?node-id=450%3A829 <br /><br />
