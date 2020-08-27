@@ -1,23 +1,27 @@
-# marketing-page
+## Marketing-page 
+The landing page of Farmfresh app shows our vision and selling pitch.
 
-**About** <br/>
+### Deployed link: https://build-week-farm-fresh-produce-two.github.io/marketing-page/ 
 
-Farmers throw away tons of produce and lose their money since they are not able to sell their whole produce inventory to local markets. Farmfresh app is a step to help those farmers by creating a web app that links up farmers with those excited to consume delicious, fresh, organic and locally sourced produce. This web app platform will help the farmers to connect with a broder customer base.
+### What is Farmfresh app all about:
 
-This repository represents the marketing page to show our vision and selling pitch.
+Farmers throw away tons of produce and lose their money since they are not able to sell their whole produce inventory to local markets. This platform will link up farmers with those excited to consume delicious, fresh, organic and locally sourced produce. 
+
+### What problem does it solve:
+Farmfresh app is a step to help those farmers, by creating a web platform. Farmers will be able to sell their excess inventory and connect to wide range of customers. 
 
 
-**Tech-stack** <br/>
+###Tech-stack \
 
-Semantic html || LESS || flexbox 
+Semantic html || LESS || flexbox
 
-**Responsive web design** <br/>
+###Responsive web design
 
-Responsive web design with media queries:
- @desktop (1024px)
- @tablet (800px)
- @mobile (500px)
+Responsive web design with media queries: <br />
+ @desktop (1024px) <br />
+ @tablet (800px) <br />
+ @mobile (500px)<br />
 
-**Link to figma mockup** <br/>
+###Link to figma mockup 
 
-https://www.figma.com/file/KOMEzLTE2K3YP7JpsFt3s9/Build-Week-Project?node-id=450%3A829
+https://www.figma.com/file/KOMEzLTE2K3YP7JpsFt3s9/Build-Week-Project?node-id=450%3A829 <br /><br />
