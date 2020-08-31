@@ -1,5 +1,6 @@
 ## Marketing-page 
-The landing page of Farmfresh app shows our vision and selling pitch.
+
+![forks](https://img.shields.io/github/forks/Build-Week-Farm-Fresh-Produce-Two/marketing-page) ![license](https://img.shields.io/github/license/Build-Week-Farm-Fresh-Produce-Two/marketing-page) ![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fminakshi_12)
 
 ### Deployed link: https://build-week-farm-fresh-produce-two.github.io/marketing-page/ 
 
