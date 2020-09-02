@@ -2,7 +2,7 @@
 
 ![forks](https://img.shields.io/github/forks/Build-Week-Farm-Fresh-Produce-Two/marketing-page) ![license](https://img.shields.io/github/license/Build-Week-Farm-Fresh-Produce-Two/marketing-page) ![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fminakshi_12)
 
-### Deployed link: https://build-week-farm-fresh-produce-two.github.io/marketing-page/ 
+### Deployed link: https://marketing-page-sandy.vercel.app/
 
 ### What is Farmfresh app all about:
 
@@ -14,7 +14,7 @@ Farmfresh app is a step to help those farmers, by creating a web platform. Farme
 
 ### Tech-stack 
 
-Semantic html || LESS || flexbox
+Semantic html || LESS || flexbox || Vercel
 
 ### Responsive web design
 
